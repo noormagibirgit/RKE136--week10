@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    color: #0e0d0d;
+}
+
+.movie-card {
+    margin-top: 5rem;
+    height: 600px;
+    text-align: center;
+}
+
+.movie-title {
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+.movie-poster-container img {
+    margin-top: 2rem;
+    height: 100%;
+    border-radius: 5px;
+    position: relative;
+    
+}
+
+.movie-info-quote {
+    color: #161616a4;
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.movie-info-overview-title {
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+}
+
+
+footer {
+    margin-top: 35rem;
+    text-align: center;
+    color: #686464;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer ul li a {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #979c98;
+}
