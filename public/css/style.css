@@ -67,3 +67,9 @@ footer ul li a {
     text-decoration: none;
     color: #979c98;
 }
+
+.chat-container{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
